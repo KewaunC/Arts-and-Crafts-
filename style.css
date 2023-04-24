@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  margin-top: 50px;
+}
+header {
+  background-image: url("/img/pattern.webp");
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.brushes,
+.frames,
+.paint {
+  padding: 20px;
+  margin-top: 30px;
+}
+.brushes img,
+.frames img,
+.paint img {
+  padding: 10px;
+}
+
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+.frames h2 {
+  background-color: lightcoral;
+}
+
+.paint h2 {
+  background-color: skyblue;
+}
+span {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+footer {
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: bold;
+}
